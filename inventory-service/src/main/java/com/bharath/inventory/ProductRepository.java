@@ -1,0 +1,1 @@
+package com.bharath.inventory; import org.springframework.data.jpa.repository.*; import java.util.*; public interface ProductRepository extends JpaRepository<Product,Long>{Optional<Product> findBySku(String sku);}
